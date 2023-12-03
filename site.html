@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel = "stylesheet" href = "styles.css" />
+        <title>Не бачу де тут пеніс намальований</title>
+    </head>
+
+    <body>
+        <div class = "container">
+            <!-- left panel -->
+            <aside class = "sidebar">
+                <div class ="profile">
+                    <img class = "photo" src = "img/1.jpg" alt="user photo">
+                    <div class = "info">
+                        <h4>Nick</h4> <!-- Тут має мінятися нік -->
+                        <p class = "admin">Admin</p> <!-- Теж має мінятися -->
+                    </div>
+                </div>
+                <!-- navigation -->
+                <div class = "line"></div> <!-- Розділювальна лінія -->
+                <div class="navigation">
+                    <div class="nav-item"><img class = "nav-icon" src = "img/home.png"><a class = "nav-text" href = "#home">Головна</a></div>
+                    <div class="nav-item"><img class = "nav-icon" src = "img/admins.png"><a class = "nav-text" href = "#admins">Адміни</a></div>
+                    <div class="nav-item"><img class = "nav-icon" src = "img/contact-list.png"><a class = "nav-text" href = "#users">Користувачі</a></div>
+                    <div class="nav-item"><img class = "nav-icon" src = "img/defects.png"><a class = "nav-text" href = "#defects">Дефекти</a></div>
+                    <div class="nav-item"><img class = "nav-icon" src = "img/orders.png"><a class = "nav-text" href = "#orders">Замовлення</a></div>
+                </div>
+            </aside>
+            <!-- main -->
+            <div class = "main">
+                <div class = "line2"></div>
+                <div class = "outer-box">
+                    <div class = "filters">
+                        <label class ="filter" for="filters">Виберіть один з фільтрів: </label>
+                        <select id="filters">
+                            <option value="none">Фільтр відсутній</option>
+                            <option value="banana">Banana</option>
+                            <option value="orange">Orange</option>
+                            <option value="grape">Grape</option>
+                            <option value="strawberry">Strawberry</option>
+                        </select>
+                        <select id="filters">
+                            <option value="none">Фільтр відсутній</option>
+                            <option value="banana">Banana</option>
+                            <option value="orange">Orange</option>
+                            <option value="grape">Grape</option>
+                            <option value="strawberry">Strawberry</option>
+                        </select>
+                    </div>
+                    <img class = "contact-list" id = "users" src = "img/contact-list.png">
+                    <label for = "users"><h1 class = "list-text">Список користувачів</h1></label>
+                    <div class="inner-box">
+                        <div class = "icons">
+                            <p class = "icons-text">№</p>
+                            <P class = "icons-text">Унікальне ім'я в системі</P>
+                            <p class = "icons-text">Повне ім'я</p>
+                            <p class = "icons-text">Посада</p>
+                            <p class = "icons-text">Доступ</p>
+                            <p class = "icons-text">Операції</p>
+                        </div>
+                        
+                        <div class="line"></div>
+
+                        <div class="user-card">
+                            <img src="img/1.jpg" alt="User Avatar" class="user-avatar">
+                            <p>John Doe</p>
+                        </div>
+                    
+                        <div class="user-card">
+                            <img src="img/1.jpg" alt="User Avatar" class="user-avatar">
+                            <p>Jane Smith</p>
+                        </div>
+                    
+                        <div class="user-card">
+                            <img src="img/1.jpg" alt="User Avatar" class="user-avatar">
+                            <p>Alex Johnson</p>
+                        </div>
+                        <!-- Це міняти треба -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

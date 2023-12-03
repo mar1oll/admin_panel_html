@@ -1,0 +1,139 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-box {
+    width: 1300px;
+    height: 600px;
+    padding: 10px;
+    background-color: rgb(197, 196, 196);
+}
+
+.inner-box {
+    width: 1230px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 70px;
+    margin-left: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.user-card {
+    width: 96%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebar {
+    width: 400px;
+    height: 600px;
+}
+
+.container {
+    display:flex;
+    padding: 10px;
+}
+
+.filters {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    background-color: #dbd5d5;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    margin: 0 5px;
+    padding: 15px 12px;
+    background-color: #ebdddd00;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-text {
+    margin-left: 20px;
+}
+
+.line {
+    border-top: 1px solid #000000;
+}
+.line2 {
+    border-left: 1px solid #000000;
+    height: 620px;
+    position: absolute;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column; /* Зміна напрямку на вертикальний */
+    align-items: center;
+    text-align: center; /* Центрування тексту */
+}
+
+.contact-list {
+    width: 40px;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.list-text {
+    padding-left: 100px;
+    position: absolute;
+}
+
+.filter {
+    color: grey;
+}
+
+.icons-text {
+    margin-right: 40px;
+    padding-left: 10px;
+} 
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin {
+    color: grey;
+}
